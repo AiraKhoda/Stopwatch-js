@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+}
+
+.stopwatch-time {
+    color: red;
+}
+
+.stopwatch-actions button {
+    border-radius: 10px;
+    padding: 0.5rem 2.5rem;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.stopwatch-actions button:hover {
+    opacity: 0.5;
+    border: none;
+}
